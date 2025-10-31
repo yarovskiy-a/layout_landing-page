@@ -60,4 +60,10 @@
   letter-spacing: 2px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
+
+  transition: color 0.3s ease;
+}
+
+.book-a-test-ride:hover {
+  color: v.$main-text-color;
 }

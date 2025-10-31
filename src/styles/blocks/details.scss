@@ -47,8 +47,8 @@
   }
 
   &__photo:hover {
-    transform: translateY(-5px);
-    transform: scale(1.1);
+    transform: translateY(-2px);
+    transform: scale(1.04);
   }
 
   &__description {
@@ -60,13 +60,27 @@
     margin: 0;
   }
 
+  .wraper-title {
+    @include mixins.page-grid;
+  }
+
   &__title {
     margin: 0;
     line-height: 140%;
     font-family: v.$font-family;
     font-weight: 400;
     font-size: 16px;
+    grid-column: span 2;
+
+    @include mixins.on-tablet {
+      grid-column: span 6;
+    }
+
+    @include mixins.on-desktop {
+      grid-column: span 8;
+    }
   }
+
   &__link {
     &--square {
       @include mixins.on-tablet {

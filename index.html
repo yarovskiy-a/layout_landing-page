@@ -10,7 +10,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>MYBIKE</title>
+    <title>My Bike</title>
+    <link rel="icon"
+    type="image/x-icon"
+    href="./src/images/icons/favicon.png">
     <link
       rel="preconnect"
       href="https://fonts.googleapis.com"
@@ -34,22 +37,18 @@
     <header class="header">
       <div class="header__content">
         <div class="top-bar">
-          <a href="#" class="top-bar__logo"
-          >
-            <img
-              src="/src/images/logo.png"
-              alt="MYBIKE logo"
-            />
+          <a href="#" class="top-bar__logo">
+            <img src="/src/images/logo.png" alt="MYBIKE logo"/>
           </a>
+
           <div class="top-bar__icons">
-            <a
-              href="tel:+1 234 5555-55-55"
-              class="icon icon--phone"
-            ></a>
-            <a
-              href="#menu"
-              class="icon icon--menu"
-            ></a>
+            <div class="number-appearance">
+              <span class="top-bar__additional-phone">+1 234 555-55-55</span>
+
+              <a href="tel:+1 234 5555-55-55"
+              class="icon icon--phone"></a>
+            </div>
+            <a href="#menu" class="icon icon--menu"></a>
           </div>
         </div>
         <div class="header__bottom">
@@ -243,11 +242,13 @@
 
                   <div class="detail__description">
                     <h3 class="detail__paragraph">Auto Unlock</h3>
-                    <p class="detail__title">
-                      THE app senses when you're nearby to unlock automatically.
-                      GPS tracking so you know where your bike is and can track
-                      it anytime.
-                    </p>
+                    <div class="wraper-title">
+                      <p class="detail__title">
+                        THE app senses when you're nearby to unlock automatically.
+                        GPS tracking so you know where your bike is and can track
+                        it anytime.
+                      </p>
+                    </div>
                   </div>
                 </article>
 
@@ -277,11 +278,13 @@
 
                   <div class="detail__description">
                     <h3 class="detail__paragraph">Range & Integrated lights</h3>
-                    <p class="detail__title">
-                      The removable battery has up to 70km battery autonomy and
-                      weighs only 2.4 kg. Lights integrated into the frame give
-                      you always-on visibility day and night.
-                    </p>
+                    <div class="wraper-title">
+                      <p class="detail__title">
+                        The removable battery has up to 70km battery autonomy and
+                        weighs only 2.4 kg. Lights integrated into the frame give
+                        you always-on visibility day and night.
+                      </p>
+                    </div>
                   </div>
                 </article>
                 <article class="detail">
@@ -311,12 +314,14 @@
                     <h3 class="detail__paragraph">
                       Hydraulic disc brakes & Lightweight
                     </h3>
-                    <p class="detail__title">
-                      Brakes with total stopping power the second you make
-                      contact. The removable battery has up to 70km battery
-                      autonomy and weighs only 2.4 kg. Lights integrated into
-                      the frame give you always-on visibility day and night.
-                    </p>
+                    <div class="wraper-title">
+                      <p class="detail__title">
+                        Brakes with total stopping power the second you make
+                        contact. The removable battery has up to 70km battery
+                        autonomy and weighs only 2.4 kg. Lights integrated into
+                        the frame give you always-on visibility day and night.
+                      </p>
+                    </div>
                   </div>
                 </article>
               </div>

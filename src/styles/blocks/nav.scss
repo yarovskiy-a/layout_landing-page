@@ -7,6 +7,12 @@
     color: v.$menu-text-color;
     text-decoration: none;
     letter-spacing: 2px;
+
+    transition: color 0.3s ease;
+  }
+
+  &__link:hover {
+    color: v.$main-text-color;
   }
 
   &__list {
